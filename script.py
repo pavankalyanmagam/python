@@ -138,5 +138,17 @@ from idlelib.debugger_r import codetable
 
 
 
+# Logical Operators
+# if applicant has  high income AND good credit Eligible for  loan
 
+has_high_income = True
+has_good_credit = True
+
+if has_high_income and has_good_credit:
+    print("Eligible for Loan!")
+
+elif has_high_income or has_good_credit:
+    print("Eligible for Loan!")
+else:
+    print("NOT Eligible for Loan!")
 
