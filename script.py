@@ -172,3 +172,56 @@ from idlelib.debugger_r import codetable
 #     print("Name cannot exceed 50 characters")
 # else:
 #     print("Looks Good!")
+
+
+# While Loops
+#
+# i = 5
+# while i <= 5:
+#     print('*' * i)
+#     i += 1
+# print("Done")
+
+# secret_number = 9
+# guess_count = 0
+# guess_limit = 3
+# while guess_count < guess_limit:
+#     guess = int(input("Guess: "))
+#     guess_count += 1
+#     if guess == secret_number:
+#         print("You guessed it!")
+#         break
+# else:
+#     print("Sorry, you didn't guess correctly.")
+
+# Car Game:
+
+# command = ""
+# started = False
+# stopped = False
+# while command != quit:
+#     command = input(">").lower()
+#     if command == 'help':
+#         print('''
+#         start - to start the car
+#         stop - to stop the car
+#         quit - to exit
+#         ''')
+#     elif command == 'start':
+#         if started:
+#             print("Already started")
+#         else:
+#             started = True
+#             print("Car Started... Ready to go!")
+#     elif command == 'stop':
+#         if stopped:
+#             print("Already stopped")
+#         else:
+#             stopped = True
+#             print("Car Stopped...")
+#     elif command == 'quit':
+#         print("Goodbye")
+#         break
+#     else:
+#         print("I don't understand")
+
