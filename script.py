@@ -105,9 +105,36 @@ from idlelib.debugger_r import codetable
 
 # Math Functions
 
-x = 2.9
-print(round(x))
-print(abs(-2.9))
+# x = 2.9
+# print(round(x))
+# print(abs(-2.9))
+
+
+
+# # If Statements
+#
+# is_hot = False
+# is_cold = True
+#
+# if is_hot:
+#     print("It's a hot day.")
+#     print("Drink Plenty of Water")
+# elif is_cold:
+#     print("It's a cold day.")
+#     print("Wear warm clothes")
+# else:
+#     print("It's a lovely day.")
+# print("Enjoy your rest of Day!")
+#
+# price = 1000000
+# has_good_credit = False
+#
+# if has_good_credit:
+#     down_payment = 0.1 * price
+# else:
+#     down_payment = 0.2 * price
+# print(f"Down Payment : ${down_payment}")
+
 
 
 
