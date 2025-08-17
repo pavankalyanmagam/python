@@ -141,14 +141,34 @@ from idlelib.debugger_r import codetable
 # Logical Operators
 # if applicant has  high income AND good credit Eligible for  loan
 
-has_high_income = True
-has_good_credit = True
+# has_high_income = True
+# has_good_credit = True
+#
+# if has_high_income and has_good_credit:
+#     print("Eligible for Loan!")
+#
+# elif has_high_income or has_good_credit:
+#     print("Eligible for Loan!")
+# else:
+#     print("NOT Eligible for Loan!")
 
-if has_high_income and has_good_credit:
-    print("Eligible for Loan!")
 
-elif has_high_income or has_good_credit:
-    print("Eligible for Loan!")
-else:
-    print("NOT Eligible for Loan!")
-
+#
+# # Comparison Operator
+#
+# temperature = 30
+#
+# if temperature > 30:
+#     print("It's a hot day")
+# elif temperature < 10:
+#     print("It's a cold day")
+# else:
+#     print("It's neither hot nor cold")
+#
+# name = input("Enter your name: ? ")
+# if len(name) < 3:
+#     print("Name must be at least 3 characters long")
+# elif len(name) > 50:
+#     print("Name cannot exceed 50 characters")
+# else:
+#     print("Looks Good!")
