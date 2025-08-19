@@ -225,3 +225,26 @@ from idlelib.debugger_r import codetable
 #     else:
 #         print("I don't understand")
 
+# For Loops
+
+# for item in 'Python':
+#     print(item)
+#
+
+# for item in ['Pavan', 'Kalyan',  'Magam']:
+#     print(item)
+#
+# for item in [1,2,3,4,5,6,7]:
+#     print(item)
+#
+
+
+for item in range(10):
+    print(item)
+
+for item in range(5, 10):
+    print(item)
+
+for item in range(5, 10,2):
+    print(item)
+
